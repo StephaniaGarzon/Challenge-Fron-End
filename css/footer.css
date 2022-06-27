@@ -1,0 +1,22 @@
+/*-----FOOTER-----*/
+
+footer{
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 25px 0 10px 0;
+    height: 15vh;
+    font-family: var(--font-family);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--color-redes);
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
+
+footer a:hover{
+    color: var(--color-naranja);
+}

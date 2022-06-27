@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/x-icon" href="img/portafolio.ico">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/sobre-mi.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+    <!-- INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><i class="fa-solid fa-code"></i></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#sobre-mi" onclick="seleccionar(this)">Sobre mi</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">Skills</a></li>
+                            <li><a href="#hobbies" onclick="seleccionar(this)">Hobbies</a></li>
+                            <li><a href="#formacion" onclick="seleccionar(this)">Formación</a></li>
+                            <li><a href="#proyectos" onclick="seleccionar(this)">Proyectos</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Menu Responsive -->
+                    <div class="icono-nav" id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Stephania Garzón</span>, Desarrollador Web en formación</h2>
+                <p class="descripcion">Emplea tu tiempo cultivándote  a través de los escritos de otros, así ganaras fácilmente lo que para nosotros ha sido una dura tarea.  <span>- Sócrates.</span></p>
+                <!-- Iconos Redes Sociales -->
+                <div class="redes">
+                    <a href="https://www.facebook.com/stepha.valbuena/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/stephavalbuena/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/StephaniaGarzon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/stephania-garzon-bonilla-b09a3638/"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI-->
+    <section id="sobre-mi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="foto Stephania">
+        </div>
+        <div class="sobre-mi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Stephania Garzón </span></h2>
+            <h3>Desarrolladora Web en formación</h3>
+            <p>Estudie Finanzas y Comercio Exterior. Colombiana de 30 años, he trabajado en el área de gestión de proyectos y atención al cliente. En la actualidad estoy estudiando Desarrollo de Páginas Web con el proyecto Oracle ONE en Alura Latam.</p>
+            <a href="docs/cv.pdf" target="_blank">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SKILLS-->
+    <section id="skills" class="skills">
+        <h3 class="skills-titulo">Skills</h3>
+            <div class="skills-linea">
+                <div class="skills-box">
+                    <ul>
+                        <li class="skills__img"><i class="fa-brands fa-html5"></i></li>
+                        <li class="skills__nombre"> HTML 5</li>
+                    </ul>
+                </div>
+
+                <div class="skills-box">
+                    <ul>
+                        <li class="skills__img"><i class="fa-brands fa-js"></i></li>
+                        <li class="skills__nombre">Javascript</li>
+                    </ul>
+                </div>
+
+                <div class="skills-box">
+                    <ul>
+                        <li class="skills__img"><i class="fa-brands fa-css3-alt"></i></li>
+                        <li class="skills__nombre">CSS</li>
+                    </ul>
+                </div>
+                
+                <div class="skills-box">
+                    <ul>
+                        <li class="skills__img"><i class="fa-brands fa-java"></i></li>
+                        <li class="skills__nombre">Java</li>
+                    </ul>
+                </div>
+
+                <div class="skills-box">
+                    <ul>
+                        <li class="skills__img"><i class="fa-brands fa-git-alt"></i></li>
+                        <li class="skills__nombre">Git</li>
+                    </ul>
+                </div>
+
+                <div class="skills-box">
+                    <ul>
+                        <li class="skills__img"><i class="fa-solid fa-database"></i></li>
+                        <li class="skills__nombre">MySQL</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <!-- HOBBIES -->
+
+    <section id="hobbies" class="hobbies">
+        <h3 class="hobbies-titulo">Hobbies</h3>
+        <div class="hobbies-linea">
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbies__img"><i class="fa-solid fa-book-open"></i></i></li>
+                    <li class="hobbies__name">Leer</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbies__img"><i class="fa-solid fa-futbol"></i></li>
+                    <li class="hobbies__name">Futbol</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbies__img"><i class="fa-solid fa-headphones"></i></li>
+                    <li class="hobbies__name">Oir música</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbies__img"><i class="fa-solid fa-tv"></i></li>
+                    <li class="hobbies__name">Ver series</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbies__img"><i class="fa-solid fa-kitchen-set"></i></li>
+                    <li class="hobbies__name">Cocinar</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMACION -->
+
+    <section id="formacion">
+        <h2 class="formacion-titulo">Formación</h2>
+        <div class="formacion-lista">
+
+            <div class="formacion__contenedor">
+                <div class="formacion__item">
+                    <img src="img/ue.png" alt="" class="formacion__lista__imagen unie">
+                </div>
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__lista__nombre">Finanzas y Comercio Exterior</h3>
+                    <p class="formacion__lista__fecha"> Graduada - Universidad de la Cámara de Comercio de Bogotá</p>
+                </div>
+            </div>
+
+            <div class="formacion__contenedor">
+                <div class="formacion__item">
+                    <img src="img/alura_logo.png" alt="" class="formacion__lista__imagen">
+                </div>
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__lista__nombre">Desarrollador FrontEnd</h3>
+                    <p class="formacion__lista__fecha">En curso - Oracle Next Education</p>
+                </div>
+            </div>
+
+            <div class="formacion__contenedor">
+                <div class="formacion__item">
+                    <img src="img/ibm-logo.png" alt="" class="formacion__lista__imagen">
+                </div>
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__lista__nombre">Fundamentos de Programación con Énfasis en Web</h3>
+                    <p class="formacion__lista__fecha">En curso - IBM</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROYETOS -->
+
+    <section id="proyectos">
+        <h2 class="proyectos-titulo">proyectos</h2>
+
+        <div class="proyectos-lista">
+
+            <div class="proyectos__item">
+                <img src="img/codificador.png" alt="Imagen Encriptador" class="proyectos__item__imagen">
+                <div class="proyectos__item__info">
+                    <div class="proyectos__descripcion">
+                        <h3 class="proyectos__item__titulo">Encriptador de texto</h3>
+                        <p>Creado con: HTML - CSS - JavaScript</p>
+                        <p class="proyectos__item__descripcion">Challenge Oracle - Alura</p>
+                    </div>
+                    <div class="proyectos__botones">
+                        <a class="proyectos__item__boton boton-repositorio" target="_blank"
+                            href="https://github.com/StephaniaGarzon/Challenge1Alura">Repositorio</a>
+                        <a class="proyectos__item__boton boton-demo" target="_blank"
+                            href="https://StephaniaGarzon.github.io/Challenge1Alura/">Ver demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyectos__item">
+                <img src="img/ahorcado.png" alt="Imagen ahorcado"
+                    class="proyectos__item__imagen">
+                <div class="proyectos__item__info">
+                    <div class="proyectos__descripcion">
+                        <h3 class="proyectos__item__titulo">Juego del Ahorcado</h3>
+                        <p>Creado con: HTML - CSS - JavaScript</p>
+                        <p class="proyectos__item__descripcion">Challenge Oracle - Alura</p>
+                    </div>
+                    <div class="proyectos__botones">
+                        <a class="proyectos__item__boton boton-repositorio" target="_blank"
+                            href="https://github.com/StephaniaGarzon/Challenge2Alura">Repositorio</a>
+                        <a class="proyectos__item__boton boton-demo" target="_blank"
+                            href="https://stephaniagarzon.github.io/Challenge2Alura/">Ver demo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section id="contacto" class="contacto">
+        <h3 class="titulo">Contacto</h3>
+        <div class="contenedor">
+            <form action="" class="formulario" id="formulario">
+    
+                <!-- Grupo: Nombre -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+                </div>
+    
+                <!-- Grupo: Correo Electronico -->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electrónico</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">No es un correo válido.</p>
+                </div>
+    
+                <!-- Grupo: Asunto -->
+                <div class="formulario__grupo" id="grupo__asunto">
+                    <label for="asunto" class="formulario__label">Asunto</label>
+                    <div class="formulario__grupo-input formulario__grupo-Asunto">
+                        <input type="text" class="formulario__input" name="asunto" id="asunto" placeholder="Asunto...">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El asunto tiene que ser de 4 a 20 caracteres.</p>
+                </div>
+
+                <!-- Grupo: Mensaje -->
+                <div class="formulario__grupo" id="grupo__mensaje">
+                    <label for="mensaje" class="formulario__label">Mensaje</label>
+                    <div class="formulario__grupo-input formulario__grupo-Mensaje">
+                        <input type="text" class="formulario__input" name="mensaje" id="mensaje" placeholder="Mensaje">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El mensaje tiene que ser mínimo de 4 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+                </div>
+    
+                <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                </div>
+    
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; Stephania Garzón</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/stepha.valbuena/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/stephavalbuena/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/StephaniaGarzon"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/stephania-garzon-bonilla-b09a3638/"><i class="fa-brands fa-linkedin"></i></i></a>
+        </div>  
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a1345447bb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="formulario.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/*----- SOBRE MI -----*/
+
+#sobre-mi{
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+    padding: 100px 15px;
+    color: var(--color-azul);
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+#sobre-mi .contenedor-foto{
+    max-width: 500px;
+    margin-right: 80px;
+}
+
+#sobre-mi .contenedor-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--bg-foto);
+}
+
+#sobre-mi .sobre-mi{
+    margin: 0 40px;
+    text-align: center;
+}
+
+#sobre-mi .sobre-mi .titulo-seccion {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--color-azul);
+    text-decoration: underline;
+    text-decoration-color: var(--color-text-decoration);
+    text-decoration-thickness: 5px;
+    /*font-weight: bold;*/
+}
+
+#sobre-mi .sobre-mi h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 1.2px;
+}
+
+#sobre-mi .sobre-mi h2 span{
+    color: var(--color-naranja);
+}
+
+#sobre-mi .sobre-mi h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobre-mi .sobre-mi p {
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--color-gris);
+    margin-bottom: 12px;
+}
+
+#sobre-mi .sobre-mi a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-negro);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid var(--color-negro);
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#sobre-mi .sobre-mi a:hover{
+    background-color: var(--color-naranja);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-blanco);
+}
+
+@media screen and (max-width:768px) {
+    #sobre-mi{
+        padding: 55px 0;
+        display: block;
+        height: 100vh;
+    }
+    #sobre-mi .contenedor-foto{
+        max-width: 220px;
+        margin: 35px auto 25px auto;
+    }
+    #sobre-mi .contenedor-foto img{
+        padding: 10px;
+    }
+    #sobre-mi .sobre-mi .titulo-seccion{
+        text-align: center;
+    }
+    #sobre-mi .sobre-mi h2{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #sobre-,mi .sobre-mi h3{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #sobre-mi .sobre-mi p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #sobre-mi .sobre-mi a{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    #sobre-mi{
+        padding: 60px 0;
+        display: flex;
+        align-items: center;
+    }
+    #sobre-mi .contenedor-foto{
+        display: none;
+    }
+    #sobre-mi .sobre-mi a{
+        display: inline-block;
+        margin-top: 30px ;
+    }
+
+}

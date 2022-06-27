@@ -1,0 +1,42 @@
+/*-----Fuente-----*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Pacifico&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@200;300;400;600&display=swap');*/
+
+:root{
+    --bg-negro-rgba: rgba(0, 0, 0, 0.884);
+    --bg-color-invert1: rgba(7,81,255,0.788);
+    --bg-color-invert2: rgba(7,81,255,0.788);
+    --bg-foto: #f3f3f3;
+
+    --color-naranja: #ee9f29;
+    --color-blanco: #fff;
+    --color-negro: #000;
+    --color-redes: #fdfdfd;
+    --color-azul: #111135;
+    --color-text-decoration: #3f466e;
+    --color-gris: #565656;
+    --color-gris-claro: #f2f2f2;
+    --color-gris-ceniza: #a4a4a4;
+    --font-family: 'Montserrat'
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+:hover{
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
